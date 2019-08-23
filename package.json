@@ -1,0 +1,18 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build-shared": "lerna run build && serve",
+    "build-no-shared": "lerna run build-no-shared && serve",
+    "analyze": "lerna run analyze"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.16.4",
+    "serve": "^11.1.0"
+  }
+}
